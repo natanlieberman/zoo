@@ -1,0 +1,14 @@
+<h1>Welcome to the beasts observatory</h1>
+
+<div class="">
+  <div>
+      <h2>The beasts list</h2>
+      <ul>
+          <li *ngFor="let i of beastsSvc.beasts">{{ i.name }}</li>
+      </ul>
+  </div>
+  <div>
+        <app-beasts-card></app-beasts-card>
+  </div>
+
+</div>

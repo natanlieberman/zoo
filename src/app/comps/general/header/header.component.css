@@ -1,0 +1,13 @@
+.background-header{
+    background: rgb(229, 214, 194);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.logo-zoo{
+    width: 25%;
+}
+.logo-zoo>img{
+    width: 100%;
+}

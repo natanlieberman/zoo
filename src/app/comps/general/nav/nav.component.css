@@ -1,0 +1,20 @@
+
+.nav{
+    width: 100%;;
+}
+
+.nav>ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav>ul>li{
+    color: blueviolet;
+    display:block;
+    width: 100px;
+}
+li:hover{
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+}
