@@ -127,7 +127,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("\r\n<div class=\"arrows\">\r\n    <div (click)=\"moveItemPage(1)\">\r\n          <img src=\"https://publicdomainvectors.org/photos/pitr_red_arrows_set_4.png\" >\r\n    </div>\r\n    <div (click)=\"moveItemPage(-1)\">\r\n            <img src=\"https://publicdomainvectors.org/photos/pitr_red_arrows_set_2.png\" >\r\n      </div>\r\n</div>");
+            /* harmony default export */ __webpack_exports__["default"] = ("\r\n<div class=\"arrows\">\r\n    <div (click)=\"moveItemPage(1)\">\r\n          <img src=\"https://publicdomainvectors.org/photos/pitr_red_arrows_set_4.png\" />\r\n    </div>\r\n    <div (click)=\"moveItemPage(-1)\">\r\n      <img src=\"https://publicdomainvectors.org/photos/pitr_red_arrows_set_4.png\" class=\"revrs\"/>\r\n      </div>\r\n</div>");
             /***/ 
         }),
         /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/comps/panels/beasts-panel/beasts-panel.component.html": 
@@ -951,7 +951,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("img{width: 10vw;}\r\n\r\n.arrows{\r\n    width: 30vw;\r\n    margin: auto;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcHMvZ2VuZXJhbC9wYWdpbmF0b3IvcGFnaW5hdG9yLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsSUFBSSxXQUFXLENBQUM7O0FBRWhCO0lBQ0ksV0FBVztJQUNYLFlBQVk7QUFDaEIiLCJmaWxlIjoic3JjL2FwcC9jb21wcy9nZW5lcmFsL3BhZ2luYXRvci9wYWdpbmF0b3IuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImltZ3t3aWR0aDogMTB2dzt9XHJcblxyXG4uYXJyb3dze1xyXG4gICAgd2lkdGg6IDMwdnc7XHJcbiAgICBtYXJnaW46IGF1dG87XHJcbn0iXX0= */");
+            /* harmony default export */ __webpack_exports__["default"] = ("img{width: 10vw;}\r\n\r\n.arrows{\r\n    width: 30vw;\r\n    margin: auto;\r\n}\r\n\r\n.revrs{\r\n    transform: scaleX(-1);\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcHMvZ2VuZXJhbC9wYWdpbmF0b3IvcGFnaW5hdG9yLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsSUFBSSxXQUFXLENBQUM7O0FBRWhCO0lBQ0ksV0FBVztJQUNYLFlBQVk7QUFDaEI7O0FBQ0E7SUFFSSxxQkFBcUI7QUFDekIiLCJmaWxlIjoic3JjL2FwcC9jb21wcy9nZW5lcmFsL3BhZ2luYXRvci9wYWdpbmF0b3IuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImltZ3t3aWR0aDogMTB2dzt9XHJcblxyXG4uYXJyb3dze1xyXG4gICAgd2lkdGg6IDMwdnc7XHJcbiAgICBtYXJnaW46IGF1dG87XHJcbn1cclxuLnJldnJze1xyXG4gICAgLXdlYmtpdC10cmFuc2Zvcm06IHNjYWxlWCgtMSk7XHJcbiAgICB0cmFuc2Zvcm06IHNjYWxlWCgtMSk7XHJcbn0iXX0= */");
             /***/ 
         }),
         /***/ "./src/app/comps/general/paginator/paginator.component.ts": 
